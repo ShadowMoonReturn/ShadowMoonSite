@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<link href="css/allcss.css" rel="stylesheet"/>
+		<link rel="icon" href="./images/icon-bf.png" type="image/png">
+	</head>
+	<style type="text/css">
+		
+		.imgall{
+				position: fixed;          
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+			    height: 108vh;
+			    background: url(images/sky.png) no-repeat center/cover;
+			    filter: blur(100px);
+			    z-index: -9999;
+				transition: background-image 0.4s ease-in;
+				animation: blurin 1.5s ease-out forwards;
+		}
+		@keyframes blurin{
+			0% {
+				filter: blur(100px);
+			}
+			100%{
+				filter: blur(0px);
+			}
+		}
+		
+		.maincont{
+			width: 80%;
+			margin: 100px auto 10px;
+			/* padding: 20px 100px; */
+			background-color: #012E59;
+		}
+		.sec-cont{
+			width: 100%;
+			height: auto;
+			padding: 20px 20px;
+		}
+		.introducefnf{
+			background-color: #084c6c;
+			border-radius: 15px;
+			border: 5px solid #fc048c;
+			text-align: center;
+			padding: 10px;
+			color: white;
+		}
+		.introducefnf p{
+			font-size: 14px;
+		}
+		.allselect{
+			background-color: transparent;
+			color: white;
+			border: 1px solid white;
+			width: 150px;
+			height: 40px;
+		}
+		.allselect optgroup{
+			background-color: #084c6c; 
+			border: 1px solid #fc048c;
+		}
+	</style>
+	<body>
+		
+		
+		
+		<header class="head">
+			
+			<!-- <div class="logo">
+				<img src="images/Cuphead.png" style="width: 50px;">
+			</div> -->
+			
+			<h1 id="bannertext" style="color: white;">Moon and Star - 🌙归海白烟以夏⭐</h1>
+			
+			<select class="allselect">
+				<option value="" selected disabled>请选择查看...</option>
+			  <optgroup label="简要概括">
+			    <option value="fansrights">观众权限</option>
+			    <option value="banana">个人介绍</option>
+			  </optgroup>
+			  <optgroup label="文本材料">
+			    <option value="text">文本材料</option>
+			    <option value="winnerfans">赢家观众</option>
+			  </optgroup>
+			  <optgroup label="文件程序">
+			    <option value="cat">键盘猫</option>
+			    <option value="cover">封面素材</option>
+			  </optgroup>
+			</select>
+			
+			<div id="btn">
+				<img src="images/icon-bf.png">
+			</div>
+		</header>
+		<div class="imgall"></div>
+		<!-- <div class="leftbar">
+			<div class="iconandtext">
+				<img src="images/icon-bf.png" />
+				<p>我是bf</p>
+			</div>
+			<div class="iconandtext">
+				<img src="images/icon-pico.png" />
+				<p>我是pico</p>
+			</div>
+		</div> -->
+		
+		<!-- <div class="rightbar">
+			<div class="iconandtext">
+				<img src="images/icon-bf.png" />
+				<p>我是bf</p>
+			</div>
+			<div class="iconandtext">
+				<img src="images/icon-pico.png" />
+				<p>我是pico</p>
+			</div>
+		</div> -->
+		
+		<!-- <img src="images/picoanim.webp" class="picoani"> -->
+		
+		<div class="introthepage">
+		
+		<!-- ↓整体容器开头 -->
+		<div class="maincont">
+			<div class="title-index">
+			<h1 style="color: white; font-weight: 300; margin-left: 18px;padding-top: 5px;">首页（Main）</h1>
+			
+			<div class="languagebox" style="display: flex;">
+				<div class="language-ch">
+					简体中文
+				</div>
+				<div class="language-en">
+					English
+				</div>
+			</div>
+			</div>
+			<!-- ↓副容器开头 -->
+			<div class="sec-cont">
+				<!-- 块级元素开头 -->
+			<div class="introducefnf">
+				<h1 style="color: white;">欢迎来到Shadow moon HTML!</h1>
+				<br>
+				<p>在接下来的网页中，你将见到FNF主播-🌙影月⭐的完整直播体系概括网页</p>
+				<br />
+				<p>
+					声明：部分素材来自于Friday Night Funkin'模组image文件。部分网页结构参考FNF官方Wiki格式，且本网页仅供娱乐、学习与展示，无任何商业用途
+				</p>
+				<br>
+				<p>
+					如果你是新粉，那么很推荐你浏览一下此网页！
+				</p>
+				<br>
+				<p>
+				随着直播体系逐渐成型，越来越多的粉丝进入了这个聚集地，自2026年1月（粉丝突破10w）之际，正式部署影月粉丝团聚集地的网站！
+				</p>
+				<br>
+				<p>
+					影月-2023.7.5正式加入FNF社区大家庭
+				</p>
+				<br>
+			</div>
+			<!-- 块级元素结尾 -->
+			<h1 style="color: white; font-weight: 300; margin-left: 18px;padding-top: 5px;">直播体系介绍</h1>
+			<div class="introducefnf" style="margin: 10px 0;">
+				<h1 style="color: white;">欢迎来到Shadow moon HTML!</h1>
+				<br>
+				<p>在接下来的网页中，你将见到FNF主播-🌙影月⭐的完整直播体系概括网页</p>
+				<br />
+				<p>
+					声明：部分素材来自于Friday Night Funkin'模组image文件。部分网页结构参考FNF官方Wiki格式，且本网页仅供娱乐、学习与展示，无任何商业用途
+				</p>
+				<br>
+				<p>
+					如果你是新粉，那么很推荐你浏览一下此网页！
+				</p>
+				<br>
+				<p>
+				随着直播体系逐渐成型，越来越多的粉丝进入了这个聚集地，自2026年1月（粉丝突破10w）之际，正式部署影月粉丝团聚集地的网站！
+				</p>
+				<br>
+				<p>
+					影月-2023.7.5正式加入FNF社区大家庭
+				</p>
+				<br>
+			</div>
+			<h1 style="color: white; font-weight: 300; margin-left: 18px;padding-top: 5px;">你将会见到什么？</h1>
+			<div class="introducefnf" style="margin: 10px 0;">
+				什么是
+			</div>
+			</div>
+			
+			<!-- ↑副容器结尾 -->
+		</div>
+		<!-- ↑整体容器结尾 -->
+		
+		<h1 id="adminh1">管理团队与具有权限的特殊身份</h1>
+		<div class="mask-wrap">
+			<div class="mask ls">
+			  🌙影月⭐
+			  <img class="bg-img" src="images/avater-shadowmoon.jpg">
+			    <div class="reveal">
+			    <div class="reveal-inner lsbg">
+			<div class="reveal-content">
+					<div class="introcard" style="display: flex;">
+					<img src="images/avater-shadowmoon.jpg" >
+					<div class="mediabody" style="margin-left: 120px; text-align: left;">
+					<p>🌙影月⭐</p>
+					<p>快手FNF主播、抖音作者与B站up主</p>
+					<p>管理职位：主播</p>
+					<p>2023.7.5成为FNF主播</p>
+					<br>
+					<p>其它身份：编辑此网站的站主、影月直播体系主要领导者</p>
+					<br>
+					<p>主播龄约6年，前为Pvz2主播（20-23年）</p>
+					<br>
+					<p>自2018年接触快手时，受当代游戏主播影响，正式踏入了成为创作者的旅程，起初的影月只是通过手机屏幕录制“滚动的天空”，与手机拍摄“生死狙击”游戏视频发布。</p>
+					<br>
+					<p>“影月”这个网名是当时影月在老家想的，当时正直夜晚，因为是看着自己的影子想名字，于是决定首字为“影”，又因为当时月亮也很醒目，幡然开悟，故命名为“影月”</p>
+					<p>(巧合的是，当时的月亮是弯月状)</p>
+					<br>
+					<p>19年起，开始发布和平精英等录屏、截图。由于当时手机只有16GB，导致无法下载剪辑软件剪辑，只能通过快手自带的云剪辑工具剪辑，当时只是一些低质量模糊小视频</p>
+					<br>
+					<p>20年，更换了一部64G的手机，并接触了快影，开始踏入Pvz2视频作者的旅程</p>
+					<p>21年初，首个名为“以前的植物和现在的植物”的作品小火，收获5000赞。后续抓住热点机遇，陆续收获了10w赞。约3个月后，粉丝突破1w，此时，影月正式踏入了主播生涯</p>
+					<p>21年年末时，影月第一次刷到了关于FNF的视频，标题为“热爱105℃的你 但是superidol和BF一起唱”</p>
+					<br>
+					<p>22年初，由于大号封禁（现🌙影月⭐），转去小号（🌙影月）发展。凭借之前累积的剪辑经验，开始构成自己的风格</p>
+					<p>（蹊跷的是，大号当初封禁<strong>至今没有具体原因</strong>）</p>
+					<br>
+					<p>22年7月5，影月正式入坑电脑版FNF，由于电脑是十几年前的老电脑，换了个win7勉强能玩。虽然大部分模组都没法玩，但积累了一定的技术，为后面成为FNF主播打下了基础</p>
+					<br>
+					<p>23年6月，影月靠自己攒下的钱换了一个电脑，虽然配置一般，但至少能直播。此刻影月正式加入FNF社区，并退出Pvz2社区。放弃发布Pvz2的账号（🌙影月），转至大号（🌙影月⭐）发展</p>
+					<br>
+					<p>23年7月，随着电脑直播的推流，迎来了首三粉丝（指张文俊、雾、雾榆）常驻，逐渐往后推入，因为直播时间点完全固定、直播具有互动性、技术出众等，很快吸引了些许观众，23年末，初代体系基础完工</p>
+					<br>
+					<p>24年4月起，在影月的打理与粉丝的支持下，直播体系正式完工。24年暑假，划分出了“普管、多管、超管”以及核心观众群体制度</p>
+					<br>
+					<p>直至25年12月（中间的10月和11月由于学业原因并未直播）经过第一次直播体系改革后，正式编写了后续的开端</p>
+					<br>
+				</div>
+					</div>
+					</div>
+				</div>
+			    </div>
+			</div>
+			<div class="mask">
+			 🌙影月
+			 <img src="images/avater-yingyue.jpg" style="left:-100px;">
+			 <div class="reveal">
+			 <div class="reveal-inner  superadminbg">
+			 	<div class="introcard" style="display: flex;">
+			 	<img src="images/avater-yingyue.jpg" >
+			 	<div class="mediabody" style="margin-left: 120px; text-align: left;">
+			 	<p>🌙影月</p>
+				<br>
+			 	<p>“最大的超管”</p>
+			 	<p>管理职位：超管</p>
+			 	<p style="color: yellow;">2023.7.5成为聚集地的一员</p>
+				<p>其它身份：工坊组组长、核心观众总管理</p>
+			 	</div>
+			 	</div>
+			 </div>
+			 </div>
+			</div>
+		  <div class="mask">
+			  张文俊
+			 <img src="images/avater-zhangwenjun.jpg" >
+			 <div class="reveal">
+			 <div class="reveal-inner  superadminbg">
+			 	<div class="introcard" style="display: flex;">
+			 	<img src="images/avater-zhangwenjun.jpg" >
+			 	<div class="mediabody" style="margin-left: 120px; text-align: left;">
+			 	<p>张文俊</p>
+			 	<br>
+			 	<p>影月直播体系中最早加入的粉丝</p>
+				<p>首三其一排首一，观众体系的构成就此开始</p>
+			 	<p>管理职位：超管</p>
+			 	<p style="color: yellow;">2023.7.10成为聚集地的一员</p>
+				<p>第一次拓展训练获胜组组员</p>
+			 	<p>其它身份：播管首席管理员</p>
+				<br>
+				<p>原本叫张某，文俊是当初一位小孩在连麦位说“主播我七岁了，我叫于文俊”，张某受到启发，于是就叫“张文俊”</p>
+			 	</div>
+			 	</div>
+			 </div>
+			 </div>
+		  </div>
+		  <div class="mask">
+			  预落
+			  <img src="images/avater-yuluo.jpg" >
+			  <div class="reveal">
+			  <div class="reveal-inner  superadminbg">
+			  	<div class="introcard" style="display: flex;">
+			  	<img src="images/avater-yuluo.jpg" >
+			  	<div class="mediabody" style="margin-left: 120px; text-align: left;">
+			  	<p>预落</p>
+			  	<br>
+			  	<p>体系改革最大的见证者</p>
+			  	<p>管理职位：超管</p>
+			  	<p style="color: yellow;">2024年7月成为聚集地的一员</p>
+				<p>第一次拓展训练获胜组组员</p>
+			  	<p>其它身份：管理团队总管理</p>
+			  	</div>
+			  	</div>
+			  </div>
+			  </div>
+		  </div>
+		  <div class="mask">
+			  名文俊
+			  <img src="images/avater-mingwenjun.jpg" >
+			  <div class="reveal">
+			  <div class="reveal-inner  superadminbg">
+			  	<div class="introcard" style="display: flex;">
+			  	<img src="images/avater-mingwenjun.jpg" >
+			  	<div class="mediabody" style="margin-left: 120px; text-align: left;">
+			  	<p>名文俊</p>
+			  	<br>
+			  	<p>群团体系一把手</p>
+			  	<p>管理职位：超管</p>
+			  	<p style="color: yellow;">2024年1月成为聚集地的一员</p>
+			  	<p>其它身份：团群首席管理员</p>
+				<br>
+				<p>其实名文俊不会改名，但是文俊这俩字挺好听的，于是起名“名文俊”</p>
+			  	</div>
+			  	</div>
+			  </div>
+			  </div>
+		  </div>
+		  <div class="mask">
+			  雾榆
+			  <img src="images/avater-wuyu.jpg" >
+			  <div class="reveal">
+			  <div class="reveal-inner  superadminbg">
+			  	<div class="introcard" style="display: flex;">
+			  	<img src="images/avater-wuyu.jpg" >
+			  	<div class="mediabody" style="margin-left: 120px; text-align: left;">
+			  	<p>雾榆</p>
+			  	<br>
+			  	<p>首三其一</p>
+			  	<p>管理职位：超管</p>
+			  	<p style="color: yellow;">2023年7月15日成为聚集地的一员</p>
+			  	<p>其它身份：观众体系首席管理员</p>
+			  	</div>
+			  	</div>
+			  </div>
+			  </div>
+		  </div>
+		  <div class="mask">
+			  澪幽
+			  <img src="images/avater-lingyou.jpg" >
+			  <div class="reveal">
+			  <div class="reveal-inner superadminbg">
+			  	<div class="introcard" style="display: flex;">
+			  	<img src="images/avater-lingyou.jpg" >
+			  	<div class="mediabody" style="margin-left: 120px; text-align: left;">
+			  	<p>澪幽</p>
+			  	<br>
+			  	<p>首位以个人能力出众晋级的超管</p>
+			  	<p>管理职位：超管</p>
+			  	<p style="color: yellow;">2023年12月成为聚集地的一员</p>
+			  	<p>其它身份：直播体系副总管</p>
+			  	</div>
+			  	</div>
+			  </div>
+			  </div>
+		  </div>
+		  <div class="mask exadmin">
+			  杉猫
+			  <img src="images/avater-shanmao.jpg" style="left: -120px;" >
+			  <div class="reveal">
+			  <div class="reveal-inner multiadminbg">
+			  	<div class="introcard" style="display: flex;">
+			  	<img src="./images/avater-shanmao.jpg" >
+			  	<div class="mediabody" style="margin-left: 120px; text-align: left;">
+			  	<p>杉猫</p>
+			  	<br>
+			  	<p>被夺舍的杉如猫、但加入聚集地不到三个月就成了多管</p>
+			  	<p>管理职位：多管</p>
+			  	<p style="color: cyan;">2025年8月成为聚集地的一员</p>
+			  	<p>管理职权：播管、群管</p>
+				<p>2025年8月末以试用普管的身份加入核心观众聚集地</p>
+			  	</div>
+			  	</div>
+			  </div>
+			  </div>
+		  </div>
+		  <div class="mask normadmin">
+			  Kawa
+			  <img src="images/avater-kawa.jpg" style="left: -170px;" >
+			  <div class="reveal">
+			  <div class="reveal-inner normaladminbg">
+			  	<div class="introcard" style="display: flex;">
+			  	<img src="images/avater-kawa.jpg" >
+			  	<div class="mediabody" style="margin-left: 120px; text-align: left;">
+			  	<p>Kawa</p>
+			  	<br>
+			  	<p>Kaaaaaaaawaaaaaaa怎么面试分97分呢</p>
+			  	<p>管理职位：普管</p>
+			  	<p style="color: lawngreen;">2025年8月成为聚集地的一员</p>
+			  	<p>2025年8月末以试用普管的身份加入核心观众聚集地</p>
+			  	</div>
+			  	</div>
+			  </div>
+			  </div>
+		  </div>
+		  <div class="mask normadmin mx9277">
+			  梦雪姐姐
+			  <img src="images/avater-mengxue.jpg" >
+			  <div class="reveal">
+			  <div class="reveal-inner mxbg">
+			  	<div class="introcard" style="display: flex;">
+			  	<img src="images/avater-mengxue.jpg" >
+			  	<div class="mediabody" style="margin-left: 120px; text-align: left;">
+			  	<p>梦雪</p>
+			  	<br>
+			  	<p>这个是你们亲爱的梦雪姐姐酱~</p>
+			  	<p>特殊身份：肥牛饭女导师</p>
+			  	<p>2023年11月成为聚集地的一员</p>
+				<br>
+			  	<p>介绍：梦雪姐姐是一代肥牛饭女战神，也是影月粉丝团聚集地的一位女导师，性格活泼开朗可爱，收获了自家粉丝的喜爱</p>
+				<br>
+				<p>梦雪姐姐是聚集地内唯一不具有具体管理身份但拥有管理待遇的观众</p>
+				<p>身份概括：播管、特色直播风格“信任危机”风格谱师</p>
+			  	</div>
+			  	</div>
+			  </div>
+			  </div>
+		  </div>
+		  <div class="mask normadmin">
+			  Neob
+			  <img src="images/avater-neob.jpg" style="left: -200px;" >
+			  <div class="reveal">
+			  <div class="reveal-inner normaladminbg">
+			  	<div class="introcard" style="display: flex;">
+			  	<img src="images/avater-neob.jpg" >
+			  	<div class="mediabody" style="margin-left: 120px; text-align: left;">
+			  	<p>Neob</p>
+			  	<br>
+			  	<p>Neooooooooooooooooooooooob</p>
+			  	<p>管理职位：普管</p>
+			  	<p style="color: lawngreen;">2025年8月成为聚集地的一员</p>
+			  	<p>2025年12月以试用普管的身份加入核心观众聚集地</p>
+				<br>
+				<p>话多，但不引起反感也是一种本事</p>
+			  	</div>
+			  	</div>
+			  </div>
+			  </div>
+		  </div>
+		  
+		</div>
+		<!-- <div class="mask-wrap">
+			<div class="mask ls">
+			  🌙影月⭐
+			</div>
+		</div> -->
+		
+		</div>
+		
+		<div style="width: 100%; height: 100px;"></div>
+	</body>
+	<script type="text/javascript">
+		document.getElementById("btn").addEventListener('click', function () {
+		    const bg = document.querySelector('.imgall');
+		    bg.style.backgroundImage = bg.style.backgroundImage.includes('PissvilleBack.png')
+		        ? 'url(images/sky.png)'
+		        : 'url(images/PissvilleBack.png)';
+			
+	document.querySelector(".head").style.backgroundColor = document.querySelector(".head").style.backgroundColor === 'rgb(255, 228, 181)' ? '#041E35' : '#FFE4B5'; 
+			
+			document.getElementById("bannertext").style.color = 
+			document.getElementById("bannertext").style.color ===
+			'rgb(47, 79, 107)' ? 'white' : '#2F4F6B';
+			
+			const pico = document.querySelector(".picoani");
+			pico.src = pico.src.includes('bfanim.webp')
+			? 'images/picoanim.webp'
+			: 'images/bfanim.webp';
+			
+		});
+		document.querySelector(".language-en").addEventListener('click' , function(){
+			var enintro = '';
+			enintro += `
+			<h1 style="color: white;">Welcome to Shadow Moon HTML!</h1>
+			<br>
+			<p>Hey there! You're about to dive into the full streaming system of FNF streamer 🌙YingYue⭐ (Shadow Moon). Buckle up!</p>
+			<br />
+			<p>
+				Quick heads-up:
+				Some sprites & assets are used straight from Friday Night Funkin' mods, and the page layout borrows a bit of that FNF Wiki. This html is 100% for fun, learning, and show the style—NO BUSINESS!
+			</p>
+			<br>
+			<p>
+				I recommend you to watch this html if you are a new follower
+			</p>
+			<br>
+			<p>As the stream keeps growing, we figured it was time to give the Mooners a proper hangout. So boom: this fan-hub went live January 2026 when ShadowMoon smashed 100k followers.
+			</p>
+			<br>
+			<p>
+				Shadow Moon officially joined the FNF fam on July 5, 2023—and the rest is history in the making.
+			</p>
+			<br>
+			`;
+			document.querySelector('.introducefnf').innerHTML = enintro
+		});
+		
+		document.querySelector(".language-ch").addEventListener('click' , function(){
+			var enintro = '';
+			enintro += `
+			<h1 style="color: white;">欢迎来到Shadow moon HTML!</h1>
+			<br>
+			<p>在接下来的网页中，你将见到FNF主播-🌙影月⭐的完整直播体系概括网页</p>
+			<br />
+			<p>
+				声明：部分素材来自于Friday Night Funkin'模组image文件。部分网页结构参考FNF官方Wiki格式，且本网页仅供娱乐、学习与展示，无任何商业用途
+			</p>
+			<br>
+			<p>
+				如果你是新粉，那么很推荐你浏览一下此网页！
+			</p>
+			<br>
+			<p>
+			随着直播体系逐渐成型，越来越多的粉丝进入了这个聚集地，自2026年1月（粉丝突破10w）之际，正式部署影月粉丝团聚集地的网站！
+			</p>
+			<br>
+			<p>
+				影月-2023.7.5正式加入FNF社区大家庭
+			</p>
+			<br>
+			`;
+			document.querySelector('.introducefnf').innerHTML = enintro
+		});
+		
+		var select = document.querySelector('.allselect')
+		
+		select.addEventListener('change',function(){
+			if(this.value == 'fansrights'){
+				location.href = 'fansrights.html'
+			}
+		});
+		
+		select.addEventListener('change',function(){
+			if(this.value == 'text'){
+				location.href = 'text.html'
+			}
+		});
+		
+		select.addEventListener('change',function(){
+			if(this.value == 'winnerfans'){
+				location.href = 'winner.html'
+			}
+		});
+		
+		
+	</script>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/allcss.css" rel="stylesheet"/>
+		<link rel="icon" href="./images/icon-bf.png" type="image/png">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<style type="text/css">
+	.imgall{
+			position: fixed;          
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 108vh;
+		    background: url(images/sky.png) no-repeat center/cover;
+		    /* filter: blur(100px); */
+		    z-index: -9999;
+			transition: background-image 0.4s ease-in;
+			animation: blurin 1.5s ease-out forwards;
+	}
+	.permission-table {
+	    width: 100%;
+	    max-width: 1000px;
+	    margin: 0 auto;
+	    border-collapse: collapse;
+	    color: white;
+	    background: rgba(0,0,0,0.5);
+		text-align: center;
+	}
+	
+	.permission-table th {
+	    background: rgba(0,0,0,0.7);
+	    padding: 15px;
+	    text-align: center;
+	    border: 1px solid rgba(255,255,255,0.3);
+	    font-size: 16px;
+	}
+	
+	.permission-table td {
+	    padding: 12px 15px;
+	    border: 1px solid rgba(255,255,255,0.2);
+	    line-height: 1.6;
+	}
+	
+	.permission-table td:first-child {
+	    text-align: center;
+	    font-weight: bold;
+	    background: rgba(0,0,0,0.3);
+	    width: 150px;
+	}
+	
+	/* .permission-table tr:hover {
+	    background: rgba(255,255,255,0.05);
+	} */
+	</style>
+	<body>
+		<div class="imgall"></div>
+		<div class="clickme">
+			<img src="images/icon-bf.png" style="width: 80px;">
+			<h4 style="color: white;">点我回到首页</h4>
+		</div>
+		<table class="permission-table">
+			<td colspan="6">
+				观众权限列表一览
+			</tr>
+		    <tr>
+		        <th>权限项目</th>
+		        <th>核心观众</th>
+		        <th>普管/试用普管</th>
+		        <th>多管</th>
+		        <th>超管</th>
+		        <th>特殊身份</th>
+		    </tr>
+		    <tr>
+		        <td>核心观众会议入场资格</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		    </tr>
+		    <tr>
+		        <td>职位优先考虑权</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		    </tr>
+		    <tr>
+		        <td>直播体系意见收集</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		    </tr>
+		    <tr>
+		        <td>直播管理权限</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>群规机制意见反馈/管理会议入场</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>违规行为认定权</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>推荐核心观众担任管理</td>
+		        <td>✗</td>
+		        <td>✓（试用无）</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>驳回观众部分权限</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>群团管权限/群聊管理实权</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>上传群资料/转永久</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>设立群规权</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>普管/多管晋级推举权</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>敏感词设置</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>直播超管职位</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>特殊大管理职位（首席管理）</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		        <td>✗</td>
+		    </tr>
+		    <tr>
+		        <td>提前进入核心聚集地（未达标）</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✗</td>
+		        <td>✓</td>
+		    </tr>
+		    <tr>
+		        <td>头衔任定（如绘画组成员）</td>
+		        <td></td>
+		        <td></td>
+		        <td></td>
+		        <td></td>
+		        <td>✓</td>
+		    </tr>
+		</table>
+	</body>
+	<script type="text/javascript">
+		document.querySelector('.clickme').addEventListener('click',function () {
+		        location.href = 'little.html';
+		})
+	</script>
+</html>
